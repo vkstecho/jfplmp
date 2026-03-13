@@ -1,0 +1,39 @@
+{
+  "rules": {
+    ".read": "auth != null",
+    ".write": "auth != null",
+
+    "loginRequests": {
+      ".read": "auth != null",
+      ".write": "auth != null"
+    },
+    "regRequests": {
+      ".read": "auth != null",
+      ".write": "auth != null"
+    },
+    "deviceChangeRequests": {
+      ".read": "auth != null",
+      ".write": "auth != null"
+    },
+    "deviceApprovals": {
+      ".read": "auth != null",
+      ".write": "auth != null"
+    },
+    "adminNotifications": {
+      ".read": "auth != null",
+      ".write": "auth != null"
+    },
+    "userNotifications": {
+      ".read": "auth != null",
+      ".write": "auth != null"
+    },
+    "resignations": {
+      ".read": "auth != null",
+      ".write": "auth != null"
+    },
+    "leftEmployees": {
+      ".read": "auth != null",
+      ".write": "auth != null"
+    }
+  }
+}
